@@ -55,26 +55,26 @@
 // // console.log('@', mysum(5, 10));
 // // console.log('@', sum(5, 10));
 //
-// // обьект
-// type User = { name: string, age: number, getJobs: () => string[], jobs: string[], logName?: () => void };
-//
-// let user: User = {
-//     name: 'dd',
-//     age: 23,
-//     jobs: ['a', 'b'],
-//     getJobs(): string[] {
-//         return this.jobs
-//     },
-//     logName(): void {
-//         console.log('@', this.name);
-//     }
-// };
-//
-// let user2: User = {
-//     name: 'mass',
-//     age: 30,
-//     jobs: ['2'],
-//     getJobs(): string[] {
-//         return this.jobs
-//     }
-// };
+// обьект
+type User = { name: string, age: number, getJobs: () => string[], jobs: string[], logName?: () => void };
+
+let user: User = {
+    name: 'dd',
+    age: 23,
+    jobs: ['a', 'b'],
+    getJobs(): string[] {
+        return this.jobs
+    },
+    logName(): void {
+        console.log('@', this.name);
+    }
+};
+
+let user2: User = {
+    name: 'mass',
+    age: 30,
+    jobs: ['2'],
+    getJobs(): string[] {
+        return this.jobs
+    }
+};

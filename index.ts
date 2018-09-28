@@ -32,49 +32,49 @@
 // let array: [number, number, string] = [1, 2, '3'];
 // let array2: [boolean, number, string] = [true, 2, '3'];
 //
-// //Функции
-//
-// function getMyAge(age: number, prefix: string = 'wfm-'): string {
-//     return prefix + age
-// }
-//
-// function consoleLog(str: string): void {
-//     console.log('@', str);
-// }
-//
-// // consoleLog('saddsa');
-// // console.log('@', getMyAge(40, 'wfm'));
-//
-// let mysum: (a: number, b: number) => number;
-//
-// function sum(num1: number, num2: number) {
-//     return num1 + num2;
-// }
-//
-// mysum = sum;
-// // console.log('@', mysum(5, 10));
-// // console.log('@', sum(5, 10));
-//
-// обьект
-type User = { name: string, age: number, getJobs: () => string[], jobs: string[], logName?: () => void };
+//Функции
 
-let user: User = {
-    name: 'dd',
-    age: 23,
-    jobs: ['a', 'b'],
-    getJobs(): string[] {
-        return this.jobs
-    },
-    logName(): void {
-        console.log('@', this.name);
-    }
-};
+function getMyAge(age: number, prefix: string = 'wfm-'): string {
+    return prefix + age
+}
 
-let user2: User = {
-    name: 'mass',
-    age: 30,
-    jobs: ['2'],
-    getJobs(): string[] {
-        return this.jobs
-    }
-};
+function consoleLog(str: string): void {
+    console.log('@', str);
+}
+
+// consoleLog('saddsa');
+// console.log('@', getMyAge(40, 'wfm'));
+
+let mysum: (a: number, b: number) => number;
+
+function sum(num1: number, num2: number) {
+    return num1 + num2;
+}
+
+mysum = sum;
+// console.log('@', mysum(5, 10));
+// console.log('@', sum(5, 10));
+
+// // обьект
+// type User = { name: string, age: number, getJobs: () => string[], jobs: string[], logName?: () => void };
+//
+// let user: User = {
+//     name: 'dd',
+//     age: 23,
+//     jobs: ['a', 'b'],
+//     getJobs(): string[] {
+//         return this.jobs
+//     },
+//     logName(): void {
+//         console.log('@', this.name);
+//     }
+// };
+//
+// let user2: User = {
+//     name: 'mass',
+//     age: 30,
+//     jobs: ['2'],
+//     getJobs(): string[] {
+//         return this.jobs
+//     }
+// };

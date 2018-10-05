@@ -1,23 +1,23 @@
-// // базовые перемнный
-// //string
-// let str: string = 'strsssing!';
-//
-// //number
-// let num: number = 10;
-//
-// //booleam
-// let isTrue: boolean = true;
-// let isFalse: boolean = false;
-//
-// //other
-// let unknow: string | number = '1';
-// unknow = 1;
-// unknow = 'sd';
-// let newunknow: any = '1';
-// newunknow = 1;
-// newunknow = true;
-//
 // базовые перемнный
+//string
+let str: string = 'strsssing!';
+
+//number
+let num: number = 10;
+
+//booleam
+let isTrue: boolean = true;
+let isFalse: boolean = false;
+
+//other
+let unknow: string | number = '1';
+unknow = 1;
+unknow = 'sd';
+let newunknow: any = '1';
+newunknow = 1;
+newunknow = true;
+
+//базовые перемнный
 
 //Array
 let numArray: number[] = [1, 1, 2];

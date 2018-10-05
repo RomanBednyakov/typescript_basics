@@ -1,23 +1,23 @@
-// // базовые перемнный
-// //string
-// let str: string = 'strsssing!';
-//
-// //number
-// let num: number = 10;
-//
-// //booleam
-// let isTrue: boolean = true;
-// let isFalse: boolean = false;
-//
-// //other
-// let unknow: string | number = '1';
-// unknow = 1;
-// unknow = 'sd';
-// let newunknow: any = '1';
-// newunknow = 1;
-// newunknow = true;
-//
 // базовые перемнный
+//string
+let str: string = 'strsssing!';
+
+//number
+let num: number = 10;
+
+//booleam
+let isTrue: boolean = true;
+let isFalse: boolean = false;
+
+//other
+let unknow: string | number = '1';
+unknow = 1;
+unknow = 'sd';
+let newunknow: any = '1';
+newunknow = 1;
+newunknow = true;
+
+//базовые перемнный
 
 //Array
 let numArray: number[] = [1, 1, 2];
@@ -32,26 +32,26 @@ let booleArray2: Array<boolean> = [true, false];
 let array: [number, number, string] = [1, 2, '3'];
 let array2: [boolean, number, string] = [true, 2, '3'];
 
-//Функции
-
-function getMyAge(age: number, prefix: string = 'wfm-'): string {
-    return prefix + age
-}
-
-function consoleLog(str: string): void {
-    console.log('@', str);
-}
-
-// consoleLog('saddsa');
-// console.log('@', getMyAge(40, 'wfm'));
-
-let mysum: (a: number, b: number) => number;
-
-function sum(num1: number, num2: number) {
-    return num1 + num2;
-}
-
-mysum = sum;
+// //Функции
+//
+// function getMyAge(age: number, prefix: string = 'wfm-'): string {
+//     return prefix + age
+// }
+//
+// function consoleLog(str: string): void {
+//     console.log('@', str);
+// }
+//
+// // consoleLog('saddsa');
+// // console.log('@', getMyAge(40, 'wfm'));
+//
+// let mysum: (a: number, b: number) => number;
+//
+// function sum(num1: number, num2: number) {
+//     return num1 + num2;
+// }
+//
+// mysum = sum;
 // console.log('@', mysum(5, 10));
 // console.log('@', sum(5, 10));
 

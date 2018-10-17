@@ -36,40 +36,40 @@ function throwNewError(error: string): never {
 //null
 let newWar: null;
 newWar = null;
-
-let myNuber: number | null = 20;
-myNuber = null;
-
-class
-class User {
-    public name: string;// public
-    private isTeacher: boolean;
-    protected age: number = 30;
-
-    constructor(name: string, public job: string) {
-        this.name = name;
-    }
-
-    public getAge(): number {
-        return this.age;
-    }
-    public setTitle(title: boolean) {
-        this.isTeacher = title;
-    }
-}
-
-const user = new User('wfm', 'frontend');
- user.setTitle(false);
-
-class User {
-    private isTeacher: boolean;
-    protected age: number = 30;
-
-    constructor(public name: string, public job: string) {
-    }
-
-    public getAge(): number {
-        return this.age;
+//
+// let myNuber: number | null = 20;
+// myNuber = null;
+//
+// class
+// class User {
+//     public name: string;// public
+//     private isTeacher: boolean;
+//     protected age: number = 30;
+//
+//     constructor(name: string, public job: string) {
+//         this.name = name;
+//     }
+//
+//     public getAge(): number {
+//         return this.age;
+//     }
+//     public setTitle(title: boolean) {
+//         this.isTeacher = title;
+//     }
+// }
+//
+// const user = new User('wfm', 'frontend');
+//  user.setTitle(false);
+//
+// class User {
+//     private isTeacher: boolean;
+//     protected age: number = 30;
+//
+//     constructor(public name: string, public job: string) {
+//     }
+//
+//     public getAge(): number {
+//         return this.age;
     }
 }
 

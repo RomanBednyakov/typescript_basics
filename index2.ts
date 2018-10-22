@@ -36,20 +36,20 @@ function throwNewError(error: string): never {
 //null
 let newWar: null;
 newWar = null;
-//
-// let myNuber: number | null = 20;
-// myNuber = null;
-//
-// class
-// class User {
-//     public name: string;// public
-//     private isTeacher: boolean;
-//     protected age: number = 30;
-//
-//     constructor(name: string, public job: string) {
-//         this.name = name;
-//     }
-//
+
+let myNuber: number | null = 20;
+myNuber = null;
+
+class
+class User {
+    public name: string;// public
+    private isTeacher: boolean;
+    protected age: number = 30;
+
+    constructor(name: string, public job: string) {
+        this.name = name;
+    }
+
 //     public getAge(): number {
 //         return this.age;
 //     }

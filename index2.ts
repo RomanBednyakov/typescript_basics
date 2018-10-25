@@ -47,30 +47,30 @@ newWar = null;
 //     protected age: number = 30;
 //
 //     constructor(name: string, public job: string) {
-//         this.name = name;
+// //         this.name = name;
+// //     }
+// //
+// //     public getAge(): number {
+// //         return this.age;
+// //     }
+// //     public setTitle(title: boolean) {
+// //         this.isTeacher = title;
+// //     }
+// // }
+// //
+// // const user = new User('wfm', 'frontend');
+// //  user.setTitle(false);
+// //
+// // class User {
+// //     private isTeacher: boolean;
+// //     protected age: number = 30;
+// //
+// //     constructor(public name: string, public job: string) {
+// //     }
+// //
+// //     public getAge(): number {
+// //         return this.age;
 //     }
-//
-//     public getAge(): number {
-//         return this.age;
-//     }
-//     public setTitle(title: boolean) {
-//         this.isTeacher = title;
-//     }
-// }
-//
-// const user = new User('wfm', 'frontend');
-//  user.setTitle(false);
-//
-// class User {
-//     private isTeacher: boolean;
-//     protected age: number = 30;
-//
-//     constructor(public name: string, public job: string) {
-//     }
-//
-//     public getAge(): number {
-//         return this.age;
-    }
 }
 
 class WMF extends User {
@@ -78,21 +78,21 @@ class WMF extends User {
 
     constructor(job: string) {
         super('WFM', job);
-        this.age = 100;
-    }
-}
-
-const user = new User('wfm', 'frontend');
-const wfm = new WMF('frontend');
-
-abstract class Car {
-    model: string;
-    year: number = 2010;
-
-    abstract logInfo(info: string): void;
-
-    getCarYear(): number {
-        return this.year;
+//         this.age = 100;
+//     }
+// }
+//
+// const user = new User('wfm', 'frontend');
+// const wfm = new WMF('frontend');
+//
+// abstract class Car {
+//     model: string;
+//     year: number = 2010;
+//
+//     abstract logInfo(info: string): void;
+//
+//     getCarYear(): number {
+//         return this.year;
     }
 }
 class Mers extends Car{
